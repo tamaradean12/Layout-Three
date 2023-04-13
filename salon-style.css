@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px; 
+}
+
+body {
+    text-decoration: none;
+    color: black;
+}
+
+ion-icon {
+    color: white;
+}
+
+a {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+}
+
+h1, h2 {
+    padding: 80px 0 30px 0;
+}
+
+h1 {
+    font-size: 5.5rem;
+    margin-right: 700px;
+}
+
+h2 {
+    font-size: 3.1rem;
+}
+
+#splash-btn {
+    display: block;
+    width: 120px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.main-btn {
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+#menu-ctn {
+    margin: 25px 60px;
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+#menu-opt {
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    margin-left: 160px;
+}
+
+#menu-opt>li {
+    margin-right: 70px;
+    display: flex;
+}
+
+#splash {
+    color: white;
+    height: 800px;
+    background-image: url(sinval.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#splash>span {
+    margin-bottom: 20px;
+}
+
+#left, #right {
+margin: 0 80px;
+}
+
+#cta {
+    background-color: black;
+    width: 220px;
+    margin: 40px 0 0 0;
+    padding: 10px;
+}
+
+#cta-btn {
+    background-color: white;
+    color: black;
+}
+
+span {
+    font-size: 1.4rem;
+}
+
+p {
+    font-size: 1.2rem;
+    padding-bottom: 40px;
+}
+
+#right {
+    margin: 20px 0 0 1300px;
+}
+
+/* to rotate text, not working yet */
+
+#rotate {
+    transform-origin: 0 0;
+    transform: rotate(90deg);
+}
+
+/* ------------------------------- */
+
+.service-desc {
+    display: flex;
+    margin: 10px 80px;
+}
+
+.serviceitems {
+    text-align: center;
+    border: 1px solid black;
+    margin-right: 20px;
+    height: 100px;
+}
+
+#momentum {
+    height: 300px;
+    display: flex;
+}
+
+#sec-left {
+padding-left: 120px;
+padding-right: 900px;
+}
+
+#sec-right {
+    width: 20px;
+    margin-right: 10px;
+}
+
+#sec-right-img {
+    width: 600px;
+    margin: 80px 0 0 -700px;
+}
+
+#stylists {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 270px;
+    background-color: bisque;
+}
+
+.stylist {
+    margin-top: 80px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.stylist>img {
+    width: 300px;
+}
